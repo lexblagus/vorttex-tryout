@@ -1,0 +1,107 @@
+ @charset "utf-8";
+ /*
+================================================================================
+ ////////        ///////                                                        
+    /////          /////                                                        
+    ////           ////                                                         
+   /////           ////                                                         
+   /////           ////                                                         
+   /////          /////                                                         
+   ////           /////                                                         
+  /////           ////                                                          
+  /////           ////                             ///                          
+  ///// ////     /////     ///// ////     //////   //////////    ////     ///// 
+  //// /   ///   /////   ////  / ////    ///   //// //  ////    /////   //   ///
+ //////    ///   ////   ////    ////    ////   ////     ////    ////   ///   ///
+ /////     ////  ////   ////    ////   /////   ////    /////    ////   ////  ///
+ ////      //// /////  ////     ////   ////    ////    /////    ////   //////   
+ ////     ///// ///// /////     ////   ////   /////    ////    /////   ///////  
+/////     ///// ////  /////     ///    ////   ////     ////    ////     /////// 
+/////     ////  ////  /////    ////    ////   ///      ////    ////       ///// 
+////      //// /////  ////     ////  //   /////       /////   /////  ////  //// 
+////     ////  /////  ////    /////  //               ////    /////  ////   /// 
+////     ///   /////  ////    ////  /////////////     ////   ////// /////   /// 
+ ///    ///    ////  / ///   / /// / /////////////    ////  /  /// /  //   ///  
+  ///////       /////   /////   ///   ////////////     /////   ////    /////    
+                                      ////////////                              
+                                     //         //                              
+                                    //          //                              
+                                    //          /                               
+                                    //         /                                
+                                     //      //                                 
+                                      ///////                                   
+================================================================================
+                              Lex Blagus, web systems architect <http://blag.us>
+================================================================================
+================================================================================
+*/
+
+body.debug .contents{ background-color:hsla(0,100%,50%,0.25); }
+body.debug #main-menu .contents .search{ background-color:hsla(90,100%,50%,0.25); }
+
+.white,
+.white a[href],
+.white a[href]:link,
+.white a[href]:visited,
+.white a[href]:active,
+.white a[href]:hover { color:#fff; }
+
+.gold,
+.gold a[href],
+.gold a[href]:link,
+.gold a[href]:visited,
+.gold a[href]:active,
+.gold a[href]:hover { color:#edc331; }
+
+.pink1,
+.pink1 a[href],
+.pink1 a[href]:link,
+.pink1 a[href]:visited,
+.pink1 a[href]:active,
+.pink1 a[href]:hover { color:#cb8be5; }
+
+.pink2,
+.pink2 a[href],
+.pink2 a[href]:link,
+.pink2 a[href]:visited,
+.pink2 a[href]:active,
+.pink2 a[href]:hover { color:#6b3282; }
+
+.orange,
+.orange a[href],
+.orange a[href]:link,
+.orange a[href]:visited,
+.orange a[href]:active,
+.orange a[href]:hover { color:#da8e2f; }
+
+
+.content-wrapper .contents{ width:1010px; margin:0px auto; }
+	.content-wrapper .contents * { vertical-align:middle; }
+	.content-wrapper .contents .partial{ display:inline-block; width:500px; margin:10px 0; }
+	.content-wrapper .contents .left{ text-align:left; }
+	.content-wrapper .contents .right{ text-align:right; }
+
+
+#top{ background-color:#6b3282; font-size:11px; color:#fff; }
+
+#main-menu{  }
+	#main-menu .contents .logo{  }
+		#main-menu .contents .logo img{ margin:19px 18px 15px 48px; }
+	#main-menu .contents .menu{ font-size:16px; font-weight:bold; }
+		#main-menu .contents .menu .item{ margin:0 18px; }
+	#main-menu .contents .search{ font-size:14px; font-weight:normal; }
+		#main-menu .contents .search .search-box{ width:253px; padding:10px 5px; border:solid 1px #dbdbdb; border-radius:5px; background-image:url('search-loupe.png'); background-position:226px 8px; background-repeat:no-repeat; }
+	#main-menu .contents .sign{ line-height:20px; display:inline-block; font-size:12px; font-weight:bold; margin-left:24px; text-align:center; }
+		#main-menu .contents .sign .login{}
+		#main-menu .contents .sign .signup{ color:#fff; padding:4px 10px; border-radius:2.5px; background-color:#345199; }
+
+#hero{ height:566px; text-align:center; background-image:url('banner.jpg'); background-repeat:no-repeat; background-position:center center; }
+	#hero .contents{  }
+		#hero .contents .caption{ padding-top:180px; }
+			#hero .contents .line1{ font-size:47px; line-height:47px; text-transform:uppercase; font-weight:bold; }
+			#hero .contents .line2{ display:inline-block; height:31px; font-size:18px; line-height:28px; margin:1em 0; padding:0em 0 0em 41px; background-image:url('label-nutricao.png'); background-repeat:no-repeat; background-position:0 0; }
+				#hero .contents .line2 a{ }
+			#hero .contents .line3{ font-size:18px; line-height:25px; font-weight:100; }
+			#hero .contents .line4{ display:block; margin-top:30px; }
+				#hero .contents .line4 a{ font-size:20px; line-height:50px; font-weight:normal; color:#fff; padding:10px 60px; border-radius:5px; background-color:#e0af2f; }
+
